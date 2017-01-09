@@ -1,0 +1,153 @@
+body {
+/* background-image:url(blue_swirls.jpg no-repeat center center fixed); */
+background: url("../images/swirl_pattern.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+/*   border: solid;
+  border-color: black;
+  border-style: solid; */
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+
+h1{
+	background-color: #CC5500;
+	color: white;
+	display:inline;
+	clear: both;
+	padding: 10px;
+	margin-bottom: 5px;
+	margin-top: 30px;
+	border: solid 1px #ddd;
+}
+
+#wrapper {
+	width: 100%
+	max-width:960px;
+    margin: 0 auto;
+	font-family: 'Titillium Web', sans-serif;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#instructions {
+	background-color: #ffffc7;
+	color: #458B00;
+	width: 30%;
+	height: 350px;
+	clear:both;
+	padding: 15px;
+	margin-top: 20px;
+	border: solid 1px #ddd;
+	margin-bottom: 5px;
+}
+
+#targetNumber {
+	background-color: #00cc99;
+	float: left;
+	height: 180px;
+	width: 280px;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	border: solid 1px #ddd
+}
+
+#scoreboard {
+	background-color: #03A9F4;
+	display: inline-block;
+	height: 180px;
+	width:    80px;
+	padding: 15px 20px 10px 15px;
+	margin-top: 0px;
+	margin-left: 20px;
+	border: solid 1px #ddd
+	margin-bottom: 5px;
+
+}
+
+#crystals {
+	margin-top: 15px;
+	margin-bottom:26px;
+
+}
+
+.crystalImage {
+	height: 111px;
+	border: solid 1px #272525;
+	background-color: black;
+	margin-left: 10px
+}
+
+.crystalImage:firstchild {
+	margin-left: 0px;
+
+}
+
+#totalScore {
+	margin-bottom: 50px;
+	height:  25px;
+	width:   350px;
+}
+
+#yourTotal {
+	background: #009688;
+	display: inline;
+	padding: 20px;
+	border: solid 1px #ddd
+}
+
+/* Additional Screen Sizes */
+
+
+@media screen and (max-width: 768px) {
+
+	body {
+		background-color: #333;
+	}
+	.wrapper {
+		width: 100%;
+		padding: 20px;
+
+	}
+
+	.instructions {
+
+
+	height: 60%;
+	clear:both;
+	padding: 15px;
+	margin-top: 20px;
+	border: solid 1px #ddd;
+	margin-bottom: 5px;
+
+	}
+
+
+}
+
+@media screen and (max-width: 640px) {
+
+	body {
+		background-color: #333;
+	}
+	.wrapper {
+		width: 100%;
+		padding: 20px;
+	}
+	.instructions {
+
+	}
+	height: 200px;
+	clear:both;
+	padding: 15px;
+	margin-top: 20px;
+	border: solid 1px #ddd;
+	margin-bottom: 5px;
+
+}
